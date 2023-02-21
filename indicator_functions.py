@@ -118,7 +118,7 @@ def Guppy(df):
     return df
 
 
-# Ichimoku Ginko Hyu
+# Ichimoku Cloud
 def Ichimoku(df):
     # Tenkan-sen (Conversion Line): (9-period_high + 9-period_low) / 2
     df = df.copy()
